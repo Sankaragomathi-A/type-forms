@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Feedback</title>
+    </head>
+    <style>
+                    .main{
+                background-image: linear-gradient(to bottom right,rgb(173, 248, 112),rgb(252, 188, 50));
+                width: 60%;
+                margin: 5% 20%;
+            }
+            .box{
+                width: 50%;
+                padding: 5px;
+                margin: 10px 0;
+            }
+            .heading{
+                font-weight: bold;
+            }
+            #submit{
+                background-color:rgb(219, 12, 247);
+                font-size: 20px;
+                font-weight: bold;
+                padding:   5px;
+                border-radius: 20px;
+                margin: 0 30%;
+            }
+                </style>
+    <body>
+        <fieldset class="main">
+        <h1 align="center">Feedback Form</h1><br><br>
+        
+    <form action="" enctype="multipart/form-data">
+        Name:
+        <input type="text" placeholder="Name" required class="box"><br><br>
+        Email:
+        <input type="text" placeholder="Email address" required class="box"><br><br>
+        Your Feedback:
+        <input type="text"><br><br>
+        Message:
+        <br>
+        <br>
+        <textarea rows="2" cols="30" placeholder="Message..." required class="box"></textarea><br>
+        <br>
+        <input type="submit" name="Submit" id="submit">
+    </fieldset>
+    </form>
+    </body>
+    
+
+</html>

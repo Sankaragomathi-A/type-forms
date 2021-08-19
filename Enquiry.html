@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Enquiry form</title>
+        <style> 
+           .main{
+                background-image: linear-gradient(to bottom right,rgb(28, 3, 255),rgb(82, 79, 82));
+                width: 60%;
+                margin: 5% 20%;
+            }
+            .box{
+                width: 50%;
+                padding: 5px;
+                margin: 10px 0;
+            }
+            .heading{
+                font-weight: bold;
+            }
+            #submit{
+                background-color:rgb(253, 99, 9);
+                font-size: 20px;
+                font-weight: bold;
+                padding:   5px;
+                border-radius: 20px;
+                margin: 0 30%;
+            }
+                </style>
+    </head>
+    <body>
+        <fieldset class="main">
+        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"    align="center">ENQUIRY FORM</h1>
+        <p align="center"><strong> you have queries kindly take a moment to fill up this form,our representatives will contact you shortly</strong></p>
+        <hr>
+        <hr>
+        <form action="#" method="POST" enctype="multipart/form-data"><br>
+              Your Name:
+            <input type="text" name="fname" placeholder="Customer name" required class="box">
+            <br>
+            <br>
+            Email Address:
+            <input type="text" name="email" placeholder="mail@example.com" required class="box">
+            <br>
+            <br>
+            Bil Number:
+            <input type="text" name="number" placeholder="Bill number" required class="box">
+            <br>
+            <br>
+            Phone Number:
+            <input type="text" name="phone number" placeholder="Your Phone Number" required class="box">
+            <br>
+            <br>
+            
+            <p>Customer Enquiry</p>
+            <textarea name="enquiry" id="enquiry" cols="60" rows="10" placeholder="Your Enquiry" required class="box"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="SUBMIT" id="submit"><br>
+            <input type="submit" value="RESET" id="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <style>
+                    .main{
+                background-image: linear-gradient(to bottom right,rgba(255, 3, 3, 0.747),rgb(236, 96, 3));
+                width: 60%;
+                margin: 5% 20%;
+            }
+            .box{
+                width: 50%;
+                padding: 5px;
+                margin: 10px 0;
+            }
+            .heading{
+                font-weight: bold;
+            }
+            #submit{
+                background-color:rgb(58, 253, 9);
+                font-size: 20px;
+                font-weight: bold;
+                padding:   5px;
+                border-radius: 20px;
+                margin: 0 30%;
+            }
+
+                
+                
+                
+        </style>
+    </head>
+   
+        <body>
+            
+            
+            <fieldset class="main">
+            
+            <h1>Registration Form</h1>
+                <form action="" method="POST" enctype="multipart/form-data"></form>
+                    
+                    First Name:<input type="text"name="fname" placeholder="Firstname:" required class="box">
+                       <br>
+                       <br>
+                       Last Name:<input type="text"name="lname" placeholder="lastname:" required class="box">
+                        
+                        <h2 class="name">company</h2>
+                        <input class="company"type="text" name="company"placeholder="company" required class="box">
+
+                        <h2 class="name">email</h2>
+                        <input class="email"type="text" name="email" placeholder="email" required class="box">
+
+                        <h2 class="name">phone</h2>
+                        <input class="code"type="text" name="area_code" placeholder="area code" required class="box">
+                        <label class="area-code">Area code</label>
+                        <input class="number" type="text"name="phone" placeholder="phone" required class="box"> 
+                        <lable class="phone-number">phone number</lable>
+
+                        <h2>subject</h2>
+                        <select class="option" name="subject">
+                            <option disabled="disabled" selected="selected">--choose option--</option>
+                            <option>subject1</option>
+                            <option>subject2</option>
+                            <option>subject3</option>
+                        </select>
+
+                        <h2 >Are you beginners?</h2>
+
+                        <label class="radio">
+                            <input class="radio-one" type="radio" name="">
+                            <span class="checked"></span>
+                            Yes
+                            </label>
+
+                        <label class="radio">
+                            <input class="radio-two" type="radio" name="">
+                            <span class="checked"></span>
+                            No
+                            </label>
+                            <br><br>
+                            <input type="submit" value="Register" id="submit">
+                            </fieldset>
+                    
+                </form>
+            
+
+        </body>
+    
+</html>

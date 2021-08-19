@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Subscription</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        body{
+        background-image: linear-gradient(to bottom right,rgba(79, 225, 245, 0.822), rgb(4, 182, 78));
+            max-height: 100vh;
+            background-repeat: no-repeat;
+            box-sizing: border-box;
+        }
+        .subscribe-box{
+            top: 30%;
+            left: 35%;
+            position: absolute;
+            transform: translate(-50% -50%);
+            background: #fff;
+            padding: 60px 40px;
+            width: 400px;
+            text-align: center;
+        }
+        .subscribe-box h1{
+            font-size: 35px;
+            color: blue;
+            margin-bottom: 15px;
+        }
+        .subscribe-box span{
+            color: #999;
+            font-size: 16px;
+            text-transform: capitalize;
+        }
+        .subscribe-box hr{
+            width: 70px;
+            color: #999;
+            margin: 25px auto;
+        }
+        .subscribe-box input{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 20px;
+            border: 1px solid #999;
+            border-radius: 5px;
+            outline-color: blue;
+            margin-bottom: 25px;
+        }
+
+        .subscribe-box button{
+            width: 100%;
+            padding: 15px 20px;
+            border: 0;
+            border-radius: 5px;
+            background: blue;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 700;
+            transition: .3s;
+        }
+        .subscribe-box button:hover{
+            background: rgb(4, 205, 231);
+        }
+
+
+    </style>
+    </head>
+    <body>
+        <div class="subscribe-box">
+            <h1>Subsribe Now</h1>
+            <span>Get notified about the next update</span>
+            <hr>
+            <form action="#">
+          <input type="email" name="email_address" placeholder="Email Address">
+          <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </body>
+</html>

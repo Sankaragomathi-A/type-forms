@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Doctor Appoinment form</title>
+        <style>
+            .main{
+                background-image: linear-gradient(to bottom right,rgb(250, 62, 109),rgb(248, 145, 248));
+                width: 60%;
+                margin: 5% 20%;
+            }
+            .box{
+                width: 80%;
+                padding: 5px;
+                margin: 10px 0;
+            }
+            .heading{
+                font-weight: bold;
+            }
+            #submit{
+                background-color:rgb(9, 216, 102);
+                font-size: 20px;
+                font-weight: bold;
+                padding:   5px;
+                border-radius: 20px;
+                margin: 0 30%;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="" method="POST" enctype="multipart/form-data">
+            <fieldset class="main">
+                <h1 align="center">Doctor Appoinment Form</h1>
+                <hr>
+                <table border="0" width=100%>
+                    <tr>
+                        <td class="heading">Name*<br>
+                            <input type="text" name="name" placeholder="Name" required class="box">
+                            </td>
+
+                            <td class="heading">Email*<br>
+                                <input type="text" name="email" placeholder="mail@example.com" required class="box">
+                                </td>
+                                
+                                <td class="heading">Phone Number *<br>
+                                    <input type="text" name="number" placeholder="phone number" required class="box"> 
+                                    </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="heading">Address*<br>
+                             <input type="text" name="address" placeholder="address" required class="box">
+                            </td>
+
+                            <td><br>
+                                <input type="text" name="line" placeholder="Line" required class="box">
+                               </td>
+
+                               <td><br>
+                                <input type="text" name="City" placeholder="City" required class="box">
+                               </td>
+
+                               <td><br>
+                                <input type="text" name="Zipcode" placeholder="Zipcode" required class="box">
+                               </td>
+                    </tr>
+                    
+                </table>
+                <br>
+                <br>
+                <input type="sumbit" value="Submit" id="submit">
+                <hr>
+                <table>
+                    
+                    <tr>
+                        <td class="heading">Best Time To Call You*<br>
+                        <input type="radio" name="Morning" required>Morning
+                        <input type="radio" name="Afternoon" required>Afternoon
+                        <input type="radio" name="Evening" required>Evening<br><br>
+                        </td>
+                        </tr>
+                        
+                    
+                    <tr>
+                        
+                        <td class="heading">I Would Like To(Choose One)*<br>
+                            
+                        <input type="radio" name="patient" required>A New Patient Appoinment<br>
+                        <input type="radio" name="checkup" required>A Routine Checkup<br>
+                        <input type="radio" name="health" required>A Comprehensive Health Exam<br>
+                        </td>
+                    
+                    </tr>
+                
+                </table>
+                <br>
+                <input type="submit" name="submit" value="Your Appoinment" id="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
